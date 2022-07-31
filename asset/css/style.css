@@ -1,0 +1,59 @@
+body{
+    margin: 0%;
+}
+html{
+    background-color: aqua;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+.contenido h1{
+    border: 1px solid ;
+    background-color: rgb(247, 222, 80);
+    margin: 0%;
+}
+.datos{
+    color: black;
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    width:100vw;
+    background-color: rgb(185, 252, 86);
+    border: 1px solid black;
+}
+.tabla{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-between;
+    border-left: 1px solid black;
+
+}
+#tabladetareas{
+    width: 100%;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.ordenT{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo-Tarea{
+    padding-left: 265px;
+}
+.titulo-ID{
+    padding-left: 35px;
+}
+button{
+    margin-right: 40px;
+}
+.max-text{
+    width: 100px;
+}
